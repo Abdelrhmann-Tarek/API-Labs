@@ -1,4 +1,8 @@
 
+using Day1.Models;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
+
 namespace Day1
 {
     public class Program
@@ -12,6 +16,12 @@ namespace Day1
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
+
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+              options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
             var app = builder.Build();
 
@@ -19,6 +29,8 @@ namespace Day1
             if (app.Environment.IsDevelopment())
             {
                 app.MapOpenApi();
+                app.UseSwagger();
+                app.UseSwaggerUI();
             }
 
             app.UseHttpsRedirection();

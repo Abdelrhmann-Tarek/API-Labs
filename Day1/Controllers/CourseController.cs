@@ -17,8 +17,8 @@ namespace Day1.Controllers
         [HttpGet]
         public IActionResult getall()
         {
-            return db.Courses.ToList();
+            return db.Courses.ToList(); //////error
         }
-
+        
     }
 }

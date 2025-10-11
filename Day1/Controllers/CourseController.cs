@@ -1,6 +1,7 @@
 ﻿using Day1.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Day1.Controllers
 {
@@ -8,17 +9,21 @@ namespace Day1.Controllers
     [ApiController]
     public class CourseController : ControllerBase
     {
-        ApplicationDbContext db;
-        public CourseController(ApplicationDbContext _db)
-        {
-            db = _db;
-        }
+        private readonly ApplicationDbContext _context;
 
-        //[HttpGet]
-        //public IActionResult getall()
-        //{
-        //    return db.Courses.ToList(); //////error
-        //}
-        
+        public CourseController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            var courses = await _context.Courses.ToListAsync();
+            if (courses==null||courses.Count==0)  return NotFound();    
+            return Ok(courses);
+
+        }
+       
+
     }
 }

@@ -22,7 +22,7 @@ namespace Day1
             builder.Services.AddSwaggerGen();//
 
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
-              options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+              options.UseSqlServer(builder.Configuration.GetConnectionString("Test")));
 
 
             var app = builder.Build();

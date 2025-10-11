@@ -30,6 +30,31 @@ namespace Day1.Controllers
             if (course==null) return NotFound();
             return Ok(course);
         }
+        [HttpPost]
+        public async Task<IActionResult> Post(Course course)
+        {
+            if (course==null) return BadRequest();
+
+            _context.Courses.Add(course);
+            await _context.SaveChangesAsync();
+            return Ok();
+        }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(int id , Course course)
+        {
+            if(id != course.Id) return BadRequest();
+
+            var existingCourse = await _context.Courses.FindAsync(course.Id);
+            if (existingCourse==null) return NotFound();
+
+            existingCourse.CrsName = course.CrsName;
+            existingCourse.CrsDesc = course.CrsDesc;
+            existingCourse.Duration = course.Duration;
+
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
 
 
 

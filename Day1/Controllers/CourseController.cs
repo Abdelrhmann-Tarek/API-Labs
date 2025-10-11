@@ -23,7 +23,15 @@ namespace Day1.Controllers
             return Ok(courses);
 
         }
-       
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var course = await _context.Courses.FindAsync(id);
+            if (course==null) return NotFound();
+            return Ok(course);
+        }
+
+
 
     }
 }

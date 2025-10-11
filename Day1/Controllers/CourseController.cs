@@ -70,6 +70,18 @@ namespace Day1.Controllers
             return Ok(courses);
         }
 
+        [HttpGet("byname/{name}")]
+        public async Task<IActionResult> CourseByName(string name)
+        {
+            var course = await _context.Courses
+                .FirstOrDefaultAsync(c => c.CrsName == name);
+
+            if (course == null)
+                return NotFound(); 
+
+            return Ok(course); 
+        }
+
 
 
     }

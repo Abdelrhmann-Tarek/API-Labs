@@ -11,16 +11,8 @@
       "RelativeMoniker": "D:0:0:{C3CCC0AC-55A9-4F1A-91AE-D8D1BD9FF8E9}|Day1\\Day1.csproj|solutionrelative:day1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3CCC0AC-55A9-4F1A-91AE-D8D1BD9FF8E9}|Day1\\Day1.csproj|d:\\api\\day1\\day1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C3CCC0AC-55A9-4F1A-91AE-D8D1BD9FF8E9}|Day1\\Day1.csproj|solutionrelative:day1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C3CCC0AC-55A9-4F1A-91AE-D8D1BD9FF8E9}|Day1\\Day1.csproj|d:\\api\\day1\\day1\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3CCC0AC-55A9-4F1A-91AE-D8D1BD9FF8E9}|Day1\\Day1.csproj|solutionrelative:day1\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3CCC0AC-55A9-4F1A-91AE-D8D1BD9FF8E9}|Day1\\Day1.csproj|d:\\api\\day1\\day1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C3CCC0AC-55A9-4F1A-91AE-D8D1BD9FF8E9}|Day1\\Day1.csproj|solutionrelative:day1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,32 +25,6 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\API\\Day1\\Day1\\Program.cs",
-              "RelativeDocumentMoniker": "Day1\\Program.cs",
-              "ToolTip": "D:\\API\\Day1\\Day1\\Program.cs",
-              "RelativeToolTip": "Day1\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAWwBMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T14:01:10.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\API\\Day1\\Day1\\appsettings.json",
-              "RelativeDocumentMoniker": "Day1\\appsettings.json",
-              "ToolTip": "D:\\API\\Day1\\Day1\\appsettings.json",
-              "RelativeToolTip": "Day1\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-07T13:59:44.014Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
@@ -68,41 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "D:\\API\\Day1\\Day1\\Controllers\\CourseController.cs",
-              "RelativeDocumentMoniker": "Day1\\Controllers\\CourseController.cs",
-              "ToolTip": "D:\\API\\Day1\\Day1\\Controllers\\CourseController.cs",
-              "RelativeToolTip": "Day1\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T13:56:17.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\API\\Day1\\Day1\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Day1\\Models\\ApplicationDbContext.cs",
               "ToolTip": "D:\\API\\Day1\\Day1\\Models\\ApplicationDbContext.cs",
               "RelativeToolTip": "Day1\\Models\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA/wCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T13:53:42.075Z",
+              "WhenOpened": "2025-10-11T14:49:50.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\API\\Day1\\Day1\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Day1\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\API\\Day1\\Day1\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Day1\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-07T13:05:30.963Z",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\API\\Day1\\Day1\\Program.cs",
+              "RelativeDocumentMoniker": "Day1\\Program.cs",
+              "ToolTip": "D:\\API\\Day1\\Day1\\Program.cs*",
+              "RelativeToolTip": "Day1\\Program.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T14:01:10.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "D:\\API\\Day1\\Day1\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Day1\\Controllers\\CourseController.cs",
+              "ToolTip": "D:\\API\\Day1\\Day1\\Controllers\\CourseController.cs*",
+              "RelativeToolTip": "Day1\\Controllers\\CourseController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T13:56:17.605Z",
               "EditorCaption": ""
             }
           ]

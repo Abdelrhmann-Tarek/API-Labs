@@ -14,11 +14,11 @@ namespace Day1.Controllers
             db = _db;
         }
 
-        [HttpGet]
-        public IActionResult getall()
-        {
-            return db.Courses.ToList(); //////error
-        }
+        //[HttpGet]
+        //public IActionResult getall()
+        //{
+        //    return db.Courses.ToList(); //////error
+        //}
         
     }
 }

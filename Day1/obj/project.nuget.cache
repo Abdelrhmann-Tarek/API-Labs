@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9YYXWNYA1yU=",
+  "dgSpecHash": "z4hgmnMzWCc=",
   "success": true,
   "projectFilePath": "D:\\API\\Day1\\Day1\\Day1.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,7 @@
     "C:\\Users\\Softlaptop\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.9\\microsoft.entityframeworkcore.relational.9.0.9.nupkg.sha512",
     "C:\\Users\\Softlaptop\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\9.0.9\\microsoft.entityframeworkcore.sqlserver.9.0.9.nupkg.sha512",
     "C:\\Users\\Softlaptop\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.9\\microsoft.entityframeworkcore.tools.9.0.9.nupkg.sha512",
+    "C:\\Users\\Softlaptop\\.nuget\\packages\\microsoft.extensions.apidescription.server\\9.0.0\\microsoft.extensions.apidescription.server.9.0.0.nupkg.sha512",
     "C:\\Users\\Softlaptop\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.9\\microsoft.extensions.caching.abstractions.9.0.9.nupkg.sha512",
     "C:\\Users\\Softlaptop\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.9\\microsoft.extensions.caching.memory.9.0.9.nupkg.sha512",
     "C:\\Users\\Softlaptop\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.9\\microsoft.extensions.configuration.abstractions.9.0.9.nupkg.sha512",
@@ -51,7 +52,9 @@
     "C:\\Users\\Softlaptop\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Softlaptop\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Softlaptop\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
+    "C:\\Users\\Softlaptop\\.nuget\\packages\\swashbuckle.aspnetcore\\9.0.6\\swashbuckle.aspnetcore.9.0.6.nupkg.sha512",
     "C:\\Users\\Softlaptop\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\9.0.6\\swashbuckle.aspnetcore.swagger.9.0.6.nupkg.sha512",
+    "C:\\Users\\Softlaptop\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\9.0.6\\swashbuckle.aspnetcore.swaggergen.9.0.6.nupkg.sha512",
     "C:\\Users\\Softlaptop\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\9.0.6\\swashbuckle.aspnetcore.swaggerui.9.0.6.nupkg.sha512",
     "C:\\Users\\Softlaptop\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
     "C:\\Users\\Softlaptop\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",

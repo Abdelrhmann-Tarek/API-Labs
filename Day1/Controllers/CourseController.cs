@@ -56,6 +56,20 @@ namespace Day1.Controllers
             return NoContent();
         }
 
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteCourse(int id)
+        {
+            var course = await _context.Courses.FindAsync(id);
+
+            if (course == null) return NotFound();
+
+            _context.Courses.Remove(course);
+            await _context.SaveChangesAsync();
+
+            var courses = await _context.Courses.ToListAsync();
+            return Ok(courses);
+        }
+
 
 
     }

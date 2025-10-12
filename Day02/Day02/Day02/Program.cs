@@ -10,6 +10,7 @@ namespace Day02
     {
         public static void Main(string[] args)
         {
+            string txt = "";
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
@@ -25,6 +26,23 @@ namespace Day02
             builder.Services.AddSwaggerGen();
 
 
+
+            //cors
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy(txt, policy =>
+                {
+                    policy.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                          .AllowAnyHeader();
+                });
+            });
+
+
+
+
+
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -38,7 +56,7 @@ namespace Day02
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
+            app.UseCors(txt);
 
             app.MapControllers();
 

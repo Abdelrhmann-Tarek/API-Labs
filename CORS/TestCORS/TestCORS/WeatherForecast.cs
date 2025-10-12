@@ -1,4 +1,4 @@
-namespace Day02
+namespace TestCORS
 {
     public class WeatherForecast
     {

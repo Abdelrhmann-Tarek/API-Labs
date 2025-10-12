@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test CORS</title>
+</head>
+<body>
+    <h1>Test CORS API Call</h1>
+    <button onclick="getStudents()">Get Students</button>
+
+    <pre id="output"></pre>
+
+    <script>
+        async function getStudents() {
+            const res = await fetch("https://localhost:7058/api/Student");
+            const data = await res.json();
+            document.getElementById("output").textContent = JSON.stringify(data, null, 2);
+        }
+    </script>
+</body>
+</html>

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\API\\Labs\\Day02\\Day02\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{414A6793-6C8A-455A-BCB1-3A46873929D0}|Day02\\Day02.csproj|d:\\api\\labs\\day02\\day02\\day02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{414A6793-6C8A-455A-BCB1-3A46873929D0}|Day02\\Day02.csproj|solutionrelative:day02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414A6793-6C8A-455A-BCB1-3A46873929D0}|Day02\\Day02.csproj|d:\\api\\labs\\day02\\day02\\day02\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{414A6793-6C8A-455A-BCB1-3A46873929D0}|Day02\\Day02.csproj|solutionrelative:day02\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{414A6793-6C8A-455A-BCB1-3A46873929D0}|Day02\\Day02.csproj|d:\\api\\labs\\day02\\day02\\day02\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{414A6793-6C8A-455A-BCB1-3A46873929D0}|Day02\\Day02.csproj|solutionrelative:day02\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{414A6793-6C8A-455A-BCB1-3A46873929D0}|Day02\\Day02.csproj|d:\\api\\labs\\day02\\day02\\day02\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{414A6793-6C8A-455A-BCB1-3A46873929D0}|Day02\\Day02.csproj|solutionrelative:day02\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{414A6793-6C8A-455A-BCB1-3A46873929D0}|Day02\\Day02.csproj|d:\\api\\labs\\day02\\day02\\day02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{414A6793-6C8A-455A-BCB1-3A46873929D0}|Day02\\Day02.csproj|solutionrelative:day02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,20 +58,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "D:\\API\\Labs\\Day02\\Day02\\Day02\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "Day02\\Controllers\\StudentController.cs",
-              "ToolTip": "D:\\API\\Labs\\Day02\\Day02\\Day02\\Controllers\\StudentController.cs*",
-              "RelativeToolTip": "Day02\\Controllers\\StudentController.cs*",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAgwDMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\API\\Labs\\Day02\\Day02\\Day02\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Day02\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\API\\Labs\\Day02\\Day02\\Day02\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Day02\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAxwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T12:33:37.687Z",
+              "WhenOpened": "2025-10-12T14:35:26.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\API\\Labs\\Day02\\Day02\\Day02\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Day02\\Models\\ApplicationDbContext.cs",
@@ -75,12 +79,11 @@
               "RelativeToolTip": "Day02\\Models\\ApplicationDbContext.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAA/wCcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T13:25:18.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T13:25:18.075Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "StudentDTO.cs",
               "DocumentMoniker": "D:\\API\\Labs\\Day02\\Day02\\Day02\\DTOs\\StudentDTO.cs",
               "RelativeDocumentMoniker": "Day02\\DTOs\\StudentDTO.cs",
@@ -88,12 +91,11 @@
               "RelativeToolTip": "Day02\\DTOs\\StudentDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T11:54:58.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T11:54:58.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AutoMappingStdDept.cs",
               "DocumentMoniker": "D:\\API\\Labs\\Day02\\Day02\\Day02\\Mapping\\AutoMappingStdDept.cs",
               "RelativeDocumentMoniker": "Day02\\Mapping\\AutoMappingStdDept.cs",
@@ -101,12 +103,11 @@
               "RelativeToolTip": "Day02\\Mapping\\AutoMappingStdDept.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T12:10:41.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T12:10:41.602Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "DepartmentDTO.cs",
               "DocumentMoniker": "D:\\API\\Labs\\Day02\\Day02\\Day02\\DTOs\\DepartmentDTO.cs",
               "RelativeDocumentMoniker": "Day02\\DTOs\\DepartmentDTO.cs",
@@ -114,12 +115,37 @@
               "RelativeToolTip": "Day02\\DTOs\\DepartmentDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T12:51:39.426Z",
+              "WhenOpened": "2025-10-12T12:51:39.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\API\\Labs\\Day02\\Day02\\Day02\\Program.cs",
+              "RelativeDocumentMoniker": "Day02\\Program.cs",
+              "ToolTip": "D:\\API\\Labs\\Day02\\Day02\\Day02\\Program.cs*",
+              "RelativeToolTip": "Day02\\Program.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwDwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T12:52:12.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\API\\Labs\\Day02\\Day02\\Day02\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Day02\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\API\\Labs\\Day02\\Day02\\Day02\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Day02\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T12:33:37.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Department.cs",
               "DocumentMoniker": "D:\\API\\Labs\\Day02\\Day02\\Day02\\Models\\Department.cs",
               "RelativeDocumentMoniker": "Day02\\Models\\Department.cs",
@@ -127,12 +153,11 @@
               "RelativeToolTip": "Day02\\Models\\Department.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA5wAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T11:56:22.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T11:56:22.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\API\\Labs\\Day02\\Day02\\Day02\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Day02\\Models\\Student.cs",
@@ -140,21 +165,7 @@
               "RelativeToolTip": "Day02\\Models\\Student.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAA9wBwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T11:55:22.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\API\\Labs\\Day02\\Day02\\Day02\\Program.cs",
-              "RelativeDocumentMoniker": "Day02\\Program.cs",
-              "ToolTip": "D:\\API\\Labs\\Day02\\Day02\\Day02\\Program.cs",
-              "RelativeToolTip": "Day02\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T12:52:12.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T11:55:22.108Z"
             }
           ]
         }

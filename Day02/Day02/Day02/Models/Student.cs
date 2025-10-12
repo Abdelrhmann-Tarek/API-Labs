@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace Day02.Models;
+
+public partial class Student
+{
+    public int St_Id { get; set; }
+
+    public string? St_Fname { get; set; }
+
+    public string? St_Lname { get; set; }
+
+    public string? St_Address { get; set; }
+
+    public int? St_Age { get; set; }
+
+    public int? Dept_Id { get; set; }
+
+    public int? St_super { get; set; }
+
+    public virtual Department? Dept { get; set; }
+
+    public virtual ICollection<Student> InverseSt_superNavigation { get; set; } = new List<Student>();
+
+    public virtual Student? St_superNavigation { get; set; }
+
+    public virtual ICollection<Stud_Course> Stud_Courses { get; set; } = new List<Stud_Course>();
+}

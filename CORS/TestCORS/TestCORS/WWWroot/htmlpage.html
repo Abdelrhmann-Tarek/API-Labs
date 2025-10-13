@@ -1,21 +1,32 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8" />
     <title>Test CORS</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function () {
+            $.ajax({
+                url: 'https://localhost:7058/api/student',
+                method: 'GET',
+                success: function (data) {
+                    
+                    $("body").append(`<pre>${JSON.stringify(data, null, 2)}</pre>`);
+                },
+                error: function (error) {
+                    console.log(" Error", error);
+                    
+                }
+            });
+        });
+    </script>
+
+
 </head>
 <body>
-    <h1>Test CORS API Call</h1>
-    <button onclick="getStudents()">Get Students</button>
+   
+        <h2>Students List</h2>
+      
 
-    <pre id="output"></pre>
 
-    <script>
-        async function getStudents() {
-            const res = await fetch("https://localhost:7058/api/Student");
-            const data = await res.json();
-            document.getElementById("output").textContent = JSON.stringify(data, null, 2);
-        }
-    </script>
-</body>
 </html>

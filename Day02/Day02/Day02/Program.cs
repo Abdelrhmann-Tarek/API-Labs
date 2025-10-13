@@ -10,7 +10,7 @@ namespace Day02
     {
         public static void Main(string[] args)
         {
-            string txt = "";
+            //string txt = "";
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
@@ -30,7 +30,7 @@ namespace Day02
             //cors
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy(txt, policy =>
+                options.AddPolicy("Test", policy =>
                 {
                     policy.AllowAnyOrigin()
                           .AllowAnyMethod()
@@ -56,7 +56,7 @@ namespace Day02
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-            app.UseCors(txt);
+            app.UseCors("Test");
 
             app.MapControllers();
 

@@ -25,6 +25,7 @@ namespace TestCORS
 
             app.UseAuthorization();
 
+            app.UseStaticFiles();
 
             app.MapControllers();
 

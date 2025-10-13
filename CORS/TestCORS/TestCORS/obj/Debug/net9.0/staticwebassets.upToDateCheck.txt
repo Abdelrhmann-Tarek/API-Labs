@@ -1,0 +1,2 @@
+wwwroot\htmlpage.html
+D:\API\Labs\CORS\TestCORS\TestCORS\wwwroot\htmlpage.html

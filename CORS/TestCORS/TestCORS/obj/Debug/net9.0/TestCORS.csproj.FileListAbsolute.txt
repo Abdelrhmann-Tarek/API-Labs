@@ -22,7 +22,6 @@ D:\API\Labs\CORS\TestCORS\TestCORS\obj\Debug\net9.0\rjimswa.dswa.cache.json
 D:\API\Labs\CORS\TestCORS\TestCORS\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 D:\API\Labs\CORS\TestCORS\TestCORS\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
 D:\API\Labs\CORS\TestCORS\TestCORS\obj\Debug\net9.0\scopedcss\bundle\TestCORS.styles.css
-D:\API\Labs\CORS\TestCORS\TestCORS\obj\Debug\net9.0\compressed\lpdvjj7s29-23v5h4o69s.gz
 D:\API\Labs\CORS\TestCORS\TestCORS\obj\Debug\net9.0\staticwebassets.build.json
 D:\API\Labs\CORS\TestCORS\TestCORS\obj\Debug\net9.0\staticwebassets.build.json.cache
 D:\API\Labs\CORS\TestCORS\TestCORS\obj\Debug\net9.0\staticwebassets.development.json
@@ -33,3 +32,5 @@ D:\API\Labs\CORS\TestCORS\TestCORS\obj\Debug\net9.0\refint\TestCORS.dll
 D:\API\Labs\CORS\TestCORS\TestCORS\obj\Debug\net9.0\TestCORS.pdb
 D:\API\Labs\CORS\TestCORS\TestCORS\obj\Debug\net9.0\TestCORS.genruntimeconfig.cache
 D:\API\Labs\CORS\TestCORS\TestCORS\obj\Debug\net9.0\ref\TestCORS.dll
+D:\API\Labs\CORS\TestCORS\TestCORS\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\API\Labs\CORS\TestCORS\TestCORS\obj\Debug\net9.0\compressed\lpdvjj7s29-prubk8ojnl.gz
